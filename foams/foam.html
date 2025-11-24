@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <foam action="/contact-me" method="post">
+        <!--label is specified for input label attach to input that this label is fpr this input -->
+        <label for="username"> Username</label>
+        <input type="name" placeholder="enter your name" required="true" id="username"> <br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="enter your passowrd" required="true" name="username" value="john" id="password"><br>
+        <input type="submit"> <br>
+        <!--input date-->
+        DATE: <input type="date"><br>
+        <!--input file-->
+        File: <input type="file"><br>
+        <!--input color-->
+        Color: <input type="color"><br>  <br>
+        <!--range-->
+        Range: <input type="range"><br>
+        <!--random button-->
+        click me: <input type="button" value="click me"><br>
+        Submit: <input type="submit"><br>
+
+        <!--radio for options-->
+        <ol>
+        <label for="male">MALE</label>
+        <input type="radio" name="gender" value="male" id="male"> <br>
+         <label for="female">FEMALE</label>
+        <input type="radio" name="gender" value="female" id="female"> <br>
+         <label for="others">OTHERS</label>
+        <input type="radio" name="gender" value="others" id="others"> <br>
+        <!--check box-->
+        <label for="male">MALE</label>
+        <input type="checkbox" name="gender" value="male" id="male"> <br>
+         <label for="female">FEMALE</label>
+        <input type="checkbox" name="gender" value="female" id="female"> <br>
+         <label for="others">OTHERS</label>
+        <input type="checkbox" name="gender" value="others" id="others"> <br>
+        </ol>
+
+        <!--drop dowm-->
+        <label id="country">COUNTRY</label>
+        <select id="country" name="country">
+        <option value="pakistan">Pakistan</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="korea">Korea</option>
+        <option value="other">Others</option>
+        </select>
+    </foam>
+</body>
+</html>
